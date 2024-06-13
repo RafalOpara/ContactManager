@@ -1,0 +1,14 @@
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\bin\Debug\net8.0\NetPcProjectDataBase.deps.json
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\bin\Debug\net8.0\NetPcProjectDataBase.runtimeconfig.json
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\bin\Debug\net8.0\NetPcProjectDataBase.dll
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\bin\Debug\net8.0\NetPcProjectDataBase.pdb
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\obj\Debug\net8.0\NetPcProjectDataBase.csproj.AssemblyReference.cache
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\obj\Debug\net8.0\NetPcProjectDataBase.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\obj\Debug\net8.0\NetPcProjectDataBase.AssemblyInfoInputs.cache
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\obj\Debug\net8.0\NetPcProjectDataBase.AssemblyInfo.cs
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\obj\Debug\net8.0\NetPcProjectDataBase.csproj.CoreCompileInputs.cache
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\obj\Debug\net8.0\NetPcProjectDataBase.dll
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\obj\Debug\net8.0\refint\NetPcProjectDataBase.dll
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\obj\Debug\net8.0\NetPcProjectDataBase.pdb
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\obj\Debug\net8.0\NetPcProjectDataBase.genruntimeconfig.cache
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\obj\Debug\net8.0\ref\NetPcProjectDataBase.dll
