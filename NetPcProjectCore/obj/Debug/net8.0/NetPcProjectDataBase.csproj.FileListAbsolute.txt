@@ -12,3 +12,4 @@ E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\obj\Debug\net8.0\refint\NetPcPr
 E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\obj\Debug\net8.0\NetPcProjectDataBase.pdb
 E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\obj\Debug\net8.0\NetPcProjectDataBase.genruntimeconfig.cache
 E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\obj\Debug\net8.0\ref\NetPcProjectDataBase.dll
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProjectCore\obj\Debug\net8.0\NetPcProjectDataBase.sourcelink.json

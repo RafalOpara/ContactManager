@@ -6,12 +6,18 @@
 
 <h2>Contacts</h2>
 
+<div class="d-flex justify-content-end mb-3">
+    <a asp-action="Login" class="btn btn-secondary me-2">Login</a>
+    <a asp-action="Register" asp-controller="Home" class="btn btn-secondary">Register</a>
+
+</div>
+
 <table class="table">
     <thead>
         <tr>
             <th>Name</th>
             <th>Email</th>
-           
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
@@ -20,7 +26,6 @@
             <tr>
                 <td>@contact.Name</td>
                 <td>@contact.Email</td>
-               
                 <td>
                     <a asp-action="Details" asp-route-contactId="@contact.Id" class="btn btn-info">Details</a>
                     <a asp-action="Delete" asp-route-contactId="@contact.Id" class="btn btn-danger">Delete</a>

@@ -1,9 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using NetPcProject.Models;
-using NetPcProject.Core.ContactCat;
-using System.Linq;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using NetPc;
+using NetPcProject.Models;
 using NetPcProjectDataBase.Enitites;
 
 namespace NetPcProject.Controllers
@@ -12,13 +10,13 @@ namespace NetPcProject.Controllers
     {
         private readonly IContactManager mContactManager;
         private readonly ViewModelMapper mViewModelMapper;
-        private readonly IContactCategoryService mCategoryService;
+        
 
-        public HomeController(IContactManager contactManager, ViewModelMapper viewModelMapper, IContactCategoryService categoryService)
+        public HomeController(IContactManager contactManager, ViewModelMapper viewModelMapper)
         {
             mContactManager = contactManager;
             mViewModelMapper = viewModelMapper;
-            mCategoryService = categoryService;
+           
         }
 
         public IActionResult Index()
@@ -98,8 +96,15 @@ namespace NetPcProject.Controllers
 
         private SelectList GetCategoryOptions()
         {
-            var categories = mCategoryService.GetAllCategories(); // Pobierz wszystkie kategorie z bazy danych
+            var categories = mContactManager.GetAllContactsCategory(); // Pobierz wszystkie kategorie z bazy danych
             return new SelectList(categories, nameof(ContactCategory.Id), nameof(ContactCategory.Name));
+        }
+
+
+
+        public IActionResult Register()
+        {
+            return RedirectToAction("Register", "User");
         }
     }
 }

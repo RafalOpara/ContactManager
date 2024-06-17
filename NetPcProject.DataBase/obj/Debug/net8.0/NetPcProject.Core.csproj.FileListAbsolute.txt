@@ -13,3 +13,4 @@ E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProject.DataBase\obj\Debug\net8.0\NetPcProj
 E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProject.DataBase\obj\Debug\net8.0\refint\NetPcProject.Core.dll
 E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProject.DataBase\obj\Debug\net8.0\NetPcProject.Core.pdb
 E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProject.DataBase\obj\Debug\net8.0\ref\NetPcProject.Core.dll
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProject.DataBase\obj\Debug\net8.0\NetPcProject.Core.sourcelink.json

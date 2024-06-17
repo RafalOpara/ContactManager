@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetPcProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a1fcaaf3cbc2b6426c6307a2e428b341a250194")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetPcProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetPcProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

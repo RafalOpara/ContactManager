@@ -8,5 +8,7 @@ namespace NetPcProject
         void DeleteContact(ContactDto contact);
         List<ContactDto> GetAllContacts();
         void UpdateContact(ContactDto updatedContact);
+
+        List<ContactCategoryDto> GetAllContactsCategory();
     }
 }

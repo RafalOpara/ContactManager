@@ -1,9 +1,10 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using NetPc;
 using NetPcProject;
-using NetPcProject.Core.ContactCat;
+using NetPcProject.Core.Interfacess;
 using NetPcProjectDataBase.Enitites;
-using YourAppName.Core.Services;
+using NetPcProjectDataBase.Repositories.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,14 +12,23 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 
+builder.Services.AddTransient<IContactManager, ContactManager>();
+builder.Services.AddTransient<IUserManager, UserManager>();
+
+
+
 
 builder.Services.AddTransient<IContactRepository, ContactRepository>();
-builder.Services.AddTransient<IContactManager, ContactManager>();
-builder.Services.AddTransient<IContactCategoryService, ContactCategoryService>();
+builder.Services.AddTransient<IContactCategoryRepository, ContactCategoryRepository>();
+builder.Services.AddTransient<IRoleRepository, RoleRepository>();
+builder.Services.AddTransient<IUserRepository, UserRepository>();
+
 
 builder.Services.AddTransient<DtoMapper>();
 builder.Services.AddTransient<ViewModelMapper>();
 
+
+builder.Services.AddScoped<IPasswordHasher<User>,PasswordHasher<User>>();
 
 builder.Services.AddDbContext<NetPcDbContext>(options =>
 {
@@ -41,13 +51,29 @@ using (var scope = app.Services.CreateScope())
         // Dodaj przyk³adowe kategorie do bazy danych
         dbContext.ContactCategory.AddRange(new[]
         {
+        
             new ContactCategory { Name = "S³u¿bowy" },
             new ContactCategory { Name = "Prywatny" },
             new ContactCategory { Name = "Inny" }
         });
 
-        dbContext.SaveChanges();
+       
     }
+
+    if (!dbContext.Roles.Any())
+    {
+        // Dodaj przyk³adowe kategorie do bazy danych
+        dbContext.Roles.AddRange(new[]
+        {
+
+            new Role { Name = "Admin" },
+            new Role { Name = "User" },
+           
+        });
+
+       
+    }
+    dbContext.SaveChanges();
 }
 
 // Configure the HTTP request pipeline.

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NetPc;
+using NetPcProjectDataBase.Repositories.Interfaces;
 
 namespace NetPcProject
 {
@@ -8,13 +9,23 @@ namespace NetPcProject
     public class ContactManager : IContactManager
     {
         private readonly IContactRepository mContactRepository;
+        private readonly IContactCategoryRepository mContactCatRepository;
 
         private readonly DtoMapper mDtoMapper;
 
-        public ContactManager(IContactRepository contactRepository, DtoMapper mapper)
+        public ContactManager(IContactRepository contactRepository, IContactCategoryRepository contactCategoryRepository, DtoMapper mapper)
         {
             mContactRepository = contactRepository;
+            mContactCatRepository = contactCategoryRepository;
             mDtoMapper = mapper;
+        }
+
+
+        public List<ContactCategoryDto> GetAllContactsCategory()
+        {
+            var contactEntitites = mContactCatRepository.GetAllContactCategory().ToList();
+
+            return mDtoMapper.Map(contactEntitites);
         }
 
         public List<ContactDto> GetAllContacts()
@@ -44,5 +55,7 @@ namespace NetPcProject
 
             mContactRepository.UpdateContact(mappedDto);
         }
+
+        ////////
     }
 }
