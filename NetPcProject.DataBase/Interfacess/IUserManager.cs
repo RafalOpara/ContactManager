@@ -1,4 +1,5 @@
 ﻿using NetPc;
+using System.Security.Claims;
 
 namespace NetPcProject.Core.Interfacess
 {
@@ -8,5 +9,10 @@ namespace NetPcProject.Core.Interfacess
         void DeleteContact(UserDto user);
         List<RoleDto> GetAllCategory();
         List<UserDto> GetAllUsers();
+        bool CheckPassword(UserDto user);
+
+      
+
+
     }
 }

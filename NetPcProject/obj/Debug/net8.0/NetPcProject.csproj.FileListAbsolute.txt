@@ -147,3 +147,4 @@ E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProject\bin\Debug\net8.0\Microsoft.Extensio
 E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProject\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProject\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProject\obj\Debug\net8.0\NetPcProject.sourcelink.json
+E:\PROGRAMOWANIE\kursy\NETPCNEW\NetPcProject\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

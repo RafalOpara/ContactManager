@@ -1,4 +1,5 @@
 ﻿using NetPcProjectDataBase.Enitites;
+using System.Security.Claims;
 
 namespace NetPcProjectDataBase.Repositories.Interfaces
 {
@@ -7,5 +8,10 @@ namespace NetPcProjectDataBase.Repositories.Interfaces
         void AddNew(User user);
         void Delete(User user);
         IEnumerable<User> GetAllUsers();
+        bool CheckPassword(User user);
+
+      
+
+
     }
 }

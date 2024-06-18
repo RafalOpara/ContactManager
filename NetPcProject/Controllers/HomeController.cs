@@ -106,5 +106,9 @@ namespace NetPcProject.Controllers
         {
             return RedirectToAction("Register", "User");
         }
+        public IActionResult Login()
+        {
+            return RedirectToAction("Login", "User");
+        }
     }
 }

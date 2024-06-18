@@ -1,6 +1,9 @@
-﻿using NetPc;
+﻿using Microsoft.AspNetCore.Identity;
+using NetPc;
 using NetPcProject.Core.Interfacess;
+using NetPcProjectDataBase.Enitites;
 using NetPcProjectDataBase.Repositories.Interfaces;
+using System.Security.Claims;
 
 namespace NetPcProject
 {
@@ -8,15 +11,18 @@ namespace NetPcProject
     {
         private readonly IRoleRepository mRoleRepository;
         private readonly IUserRepository mUserRepository;
+        private readonly IPasswordHasher<User> mPasswordHasher;
+
 
 
         private readonly DtoMapper mDtoMapper;
 
-        public UserManager(IRoleRepository roleRepository, IUserRepository userRepository, DtoMapper mapper)
+        public UserManager(IRoleRepository roleRepository, IUserRepository userRepository, DtoMapper mapper, IPasswordHasher<User> passwordHasher)
         {
             mRoleRepository = roleRepository;
             mUserRepository = userRepository;
             mDtoMapper = mapper;
+            mPasswordHasher = passwordHasher;
         }
 
         public List<RoleDto> GetAllCategory()
@@ -49,6 +55,17 @@ namespace NetPcProject
             mUserRepository.Delete(entity);
         }
 
+        public bool CheckPassword(UserDto user)
+        {
+            var entity = mDtoMapper.Map(user);
 
+            var checkedPassword = mUserRepository.CheckPassword(entity);
+
+            return (checkedPassword);
+        }
+
+     
+
+        
     }
 }

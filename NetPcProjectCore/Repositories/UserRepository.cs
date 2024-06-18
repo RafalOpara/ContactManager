@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using NetPcProjectDataBase.Enitites;
 using NetPcProjectDataBase.Repositories.Interfaces;
+using System.Security.Claims;
 
 namespace NetPc
 {
@@ -10,6 +11,7 @@ namespace NetPc
     {
         private readonly NetPcDbContext _context;
         private readonly IPasswordHasher<User> _passwordHasher;
+       
 
 
         public UserRepository(NetPcDbContext context, IPasswordHasher<User> passwordHasher)
@@ -42,6 +44,26 @@ namespace NetPc
 
         }
 
+        public bool CheckPassword(User user)
+        {
+            var tempUser = GetAllUsers().Where(x => x.Email == user.Email).FirstOrDefault();
 
+            Console.WriteLine(tempUser.PasswrodHash);
+            Console.WriteLine(user.PasswrodHash);
+
+            var result = _passwordHasher.VerifyHashedPassword(tempUser, tempUser.PasswrodHash, user.PasswrodHash);
+
+            if (result == PasswordVerificationResult.Failed)
+            {
+                return (false);
+            }
+            else
+            {
+                
+                return true;
+            }
+        }
+
+       
     }
 }

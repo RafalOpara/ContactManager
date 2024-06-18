@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using NetPc;
 using NetPcProject;
 using NetPcProject.Core.Interfacess;
 using NetPcProjectDataBase.Enitites;
 using NetPcProjectDataBase.Repositories.Interfaces;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,7 +30,35 @@ builder.Services.AddTransient<DtoMapper>();
 builder.Services.AddTransient<ViewModelMapper>();
 
 
-builder.Services.AddScoped<IPasswordHasher<User>,PasswordHasher<User>>();
+
+var authenticationSettings = new AuthenticationSettings();
+builder.Configuration.GetSection("Authentication").Bind(authenticationSettings);
+
+builder.Services.AddSingleton(authenticationSettings);
+
+builder.Services.AddAuthentication(option =>
+{
+    option.DefaultAuthenticateScheme = "Bearer";
+    option.DefaultScheme = "Bearer";
+    option.DefaultChallengeScheme = "Bearer";
+}).AddJwtBearer(cfg =>
+{
+    cfg.RequireHttpsMetadata = false;
+    cfg.SaveToken = true;
+    cfg.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true, // W³¹czenie walidacji wydawcy
+        ValidateAudience = true, // W³¹czenie walidacji odbiorcy
+        ValidIssuer = authenticationSettings.JwtIssuer, // Ustawienie oczekiwanego wydawcy
+        ValidAudience = authenticationSettings.JwtIssuer, // Ustawienie oczekiwanego odbiorcy, u¿yj odpowiedniego pola, jeœli masz inne dla odbiorcy
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(authenticationSettings.JwtKey)), // Klucz do podpisu
+    };
+});
+   
+
+
+
+builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
 
 builder.Services.AddDbContext<NetPcDbContext>(options =>
 {
@@ -84,6 +114,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
+app.UseAuthentication();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
