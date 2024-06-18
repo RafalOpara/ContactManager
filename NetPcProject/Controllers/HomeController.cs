@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using NetPc;
@@ -26,6 +27,7 @@ namespace NetPcProject.Controllers
             return View(contactViewModels);
         }
 
+        
         public IActionResult Add()
         {
             ViewBag.CategoryOptions = GetCategoryOptions();
@@ -33,6 +35,7 @@ namespace NetPcProject.Controllers
         }
 
         [HttpPost]
+   
         public IActionResult Add(ContactViewModel contactVm)
         {
             if (ModelState.IsValid)

@@ -7,6 +7,39 @@
       "RelativeMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|e:\\programowanie\\kursy\\netpcnew\\netpcproject\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|solutionrelative:models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|e:\\programowanie\\kursy\\netpcnew\\netpcproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|e:\\programowanie\\kursy\\netpcnew\\netpcproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|e:\\programowanie\\kursy\\netpcnew\\netpcproject\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|solutionrelative:views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|e:\\programowanie\\kursy\\netpcnew\\netpcproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9447AE8-151B-4010-B7A4-2C669EB1E992}|..\\NetPcProject.DataBase\\NetPcProject.Core.csproj|e:\\programowanie\\kursy\\netpcnew\\netpcproject.database\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|e:\\programowanie\\kursy\\netpcnew\\netpcproject\\models\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|solutionrelative:models\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9447AE8-151B-4010-B7A4-2C669EB1E992}|..\\NetPcProject.DataBase\\NetPcProject.Core.csproj|e:\\programowanie\\kursy\\netpcnew\\netpcproject.database\\interfacess\\iusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D74B238-5A47-4038-A377-6B7D942FC826}|..\\NetPcProjectCore\\NetPcProjectDataBase.csproj|e:\\programowanie\\kursy\\netpcnew\\netpcprojectcore\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7D74B238-5A47-4038-A377-6B7D942FC826}|..\\NetPcProjectCore\\NetPcProjectDataBase.csproj|e:\\programowanie\\kursy\\netpcnew\\netpcprojectcore\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -14,7 +47,24 @@
       "RelativeMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9447AE8-151B-4010-B7A4-2C669EB1E992}|..\\NetPcProject.DataBase\\NetPcProject.Core.csproj|e:\\programowanie\\kursy\\netpcnew\\netpcproject.database\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|e:\\programowanie\\kursy\\netpcnew\\netpcproject\\models\\contactcategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|solutionrelative:models\\contactcategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|e:\\programowanie\\kursy\\netpcnew\\netpcproject\\models\\roleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|solutionrelative:models\\roleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|e:\\programowanie\\kursy\\netpcnew\\netpcproject\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|solutionrelative:views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|e:\\programowanie\\kursy\\netpcnew\\netpcproject\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|e:\\programowanie\\kursy\\netpcnew\\netpcproject\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A7657B4-9448-412E-8615-102143553389}|NetPcProject.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,20 +73,221 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 1540,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 1218,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProjectCore\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\NetPcProjectCore\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProjectCore\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "..\\NetPcProjectCore\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T13:51:36.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserManager.cs",
+              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject.DataBase\\Interfacess\\IUserManager.cs",
+              "RelativeDocumentMoniker": "..\\NetPcProject.DataBase\\Interfacess\\IUserManager.cs",
+              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject.DataBase\\Interfacess\\IUserManager.cs",
+              "RelativeToolTip": "..\\NetPcProject.DataBase\\Interfacess\\IUserManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T13:51:06.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContactViewModel.cs",
+              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Models\\ContactViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ContactViewModel.cs",
+              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Models\\ContactViewModel.cs",
+              "RelativeToolTip": "Models\\ContactViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:03:42.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Models\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserViewModel.cs",
+              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Models\\UserViewModel.cs",
+              "RelativeToolTip": "Models\\UserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:03:43.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject.DataBase\\UserManager.cs",
+              "RelativeDocumentMoniker": "..\\NetPcProject.DataBase\\UserManager.cs",
+              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject.DataBase\\UserManager.cs",
+              "RelativeToolTip": "..\\NetPcProject.DataBase\\UserManager.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAgwCcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T09:33:27.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProjectCore\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\NetPcProjectCore\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProjectCore\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "..\\NetPcProjectCore\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAcwEUAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T09:33:30.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAiAAAA",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAowEQAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T10:18:53.627Z",
+              "WhenOpened": "2024-06-18T12:55:57.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RoleViewModel.cs",
+              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Models\\RoleViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\RoleViewModel.cs",
+              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Models\\RoleViewModel.cs",
+              "RelativeToolTip": "Models\\RoleViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:04:10.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T12:04:42.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
+              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "Views\\User\\Login.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T12:04:56.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T12:04:44.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ContactCategoryViewModel.cs",
+              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Models\\ContactCategoryViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ContactCategoryViewModel.cs",
+              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Models\\ContactCategoryViewModel.cs",
+              "RelativeToolTip": "Models\\ContactCategoryViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:03:39.839Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1218,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-18T13:28:17.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAIwBAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T13:10:08.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Register.cshtml",
+              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "Views\\User\\Register.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAIwBcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T13:09:58.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:56:41.541Z",
               "EditorCaption": ""
             },
             {
@@ -47,41 +298,9 @@
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAkwFAAAAAbAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAYwFQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T09:33:20.911Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1218,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserManager.cs",
-              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject.DataBase\\UserManager.cs",
-              "RelativeDocumentMoniker": "..\\NetPcProject.DataBase\\UserManager.cs",
-              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProject.DataBase\\UserManager.cs",
-              "RelativeToolTip": "..\\NetPcProject.DataBase\\UserManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T09:33:27.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProjectCore\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "..\\NetPcProjectCore\\Repositories\\UserRepository.cs",
-              "ToolTip": "E:\\PROGRAMOWANIE\\kursy\\NETPCNEW\\NetPcProjectCore\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "..\\NetPcProjectCore\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAYwDcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T09:33:30.634Z",
               "EditorCaption": ""
             }
           ]

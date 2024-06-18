@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using NetPc;
 using NetPcProject.Core.Interfacess;
@@ -23,7 +24,7 @@ namespace NetPcProject.Controllers
             mAuthenticationSettings = authenticationSettings;
         }
 
-
+        [Authorize]
         public IActionResult Register()
         {
             return View();
@@ -77,7 +78,18 @@ namespace NetPcProject.Controllers
                 }
                 else
                 {
-                    GenerateJwtToken(userVm);
+                    // Generate JWT token
+                    var token = GenerateJwtToken(userVm);
+
+                    Response.Headers.Add("Authorization", "Bearer " + token);
+
+
+                    Response.Cookies.Append("Authorization", "Bearer " + token, new CookieOptions
+                    {
+                        HttpOnly = true,
+                        SameSite = SameSiteMode.Strict,
+                        Secure = true  // Set to true if your site uses HTTPS
+                    });
                     return RedirectToAction("Index", "Home");
                 }
 
@@ -88,6 +100,8 @@ namespace NetPcProject.Controllers
 
         private string GenerateJwtToken(UserViewModel userVm)
         {
+            
+
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(mAuthenticationSettings.JwtKey));
             var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
             var expires = DateTime.Now.AddDays(mAuthenticationSettings.JwtExpireDays);
@@ -106,6 +120,7 @@ namespace NetPcProject.Controllers
                 signingCredentials: cred);
 
             var tokenHandler = new JwtSecurityTokenHandler();
+           
             return tokenHandler.WriteToken(token);
         }
     }

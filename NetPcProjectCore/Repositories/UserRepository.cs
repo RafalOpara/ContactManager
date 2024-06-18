@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using NetPcProjectDataBase.Enitites;
 using NetPcProjectDataBase.Repositories.Interfaces;
 using System.Security.Claims;
@@ -62,8 +63,15 @@ namespace NetPc
                 
                 return true;
             }
+
+            
         }
 
-       
+        public IQueryable<User> GetAllUsersWithRoles()
+        {
+            return _context.Users.Include(u => u.Role);
+        }
+
+
     }
 }
